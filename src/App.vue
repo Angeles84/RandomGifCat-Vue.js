@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="mt-3 mt-md-5">
     <RandomGifCat encabezado="Random Gif Cat"/>
   </div>
 </template>
@@ -25,6 +25,5 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 50px;
 }
 </style>

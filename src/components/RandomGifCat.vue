@@ -75,12 +75,36 @@ h1 {
 }
 form {
   text-align: left;
-  width: 45%;
+  width: 81%;
   margin: 0 auto;
-  padding-left: 7em;
   padding-top: 1.4em;
   padding-bottom: 1em;
 }
+
+@media (min-width: 415px) and (max-width: 768px) {
+  form {
+    width: 50%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  form {
+    width: 40%;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  form {
+    width: 35%;
+  }
+}
+
+@media (min-width: 1201px) {
+  form {
+    width: 28%;
+  }
+}
+
 label {
   font-weight: 600;
 }
