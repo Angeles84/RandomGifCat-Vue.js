@@ -1,5 +1,5 @@
 # desafio-random-gif-cat
-Ver el sitio aquí https://reandom-gif-cat.netlify.app/
+Ver el sitio aquí https://random-gif-cat.netlify.app/
 ## Project setup
 ```
 npm install
